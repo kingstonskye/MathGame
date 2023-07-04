@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Gochi Hand';
+    background-color: rgb(207, 232, 199);
+}
+
+.container{
+    padding: 20px;
+    overflow: hidden; 
+    background-color: rgb(152, 217, 235);
+}
+
+.container h1{
+    float: left;
+    margin-left: 10%;
+    color: rgb(240, 121, 121);
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.container ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 70%;
+    margin-top: ;
+}
+
+.container li{
+    margin-top: 10px;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+.container a{
+    text-decoration: none;
+    color: rgb(240, 121, 121);
+}
+
+.current a::after{
+    content: '_';
+    background-color: rgb(237, 96, 96);
+    font-size: 2px;
+    display: block;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 82% 18%;
+    height: 70vh;
+    padding-top: 5%;
+}
+
+.equation{
+    font-size: 67px;
+    background-color: rgba(244, 255, 241, 0.677);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.equation h1{
+    display: inline;
+    padding: 20px;
+}
+
+.answer-options{
+    font-size: 67px;
+    margin-right: 10px;
+}
+
+.answer-options h1{
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    
+}
+
+#option1{
+    background-color: rgb(152, 217, 235);
+    transition: .5s;
+}
+
+#option1:hover{
+    color: rgba(89, 113, 251, 0.932);
+    background-color: rgb(207, 232, 199);
+}
+
+#option2{
+    background-color: rgb(240, 121, 121);
+    transition: 1s;
+}
+
+#option2:hover{
+    color: rgb(240, 121, 121);
+    background-color: rgb(207, 232, 199);
+}
+
+#option3{
+    background-color: rgb(42, 162, 42);
+    transition: 1s;
+}
+
+#option3:hover{
+    color: rgb(42, 162, 42);
+    background-color: rgb(207, 232, 199);
+}
